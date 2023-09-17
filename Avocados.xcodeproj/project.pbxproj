@@ -29,6 +29,9 @@
 		5BEB36942AB7155700BDC097 /* RecipeRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEB36932AB7155700BDC097 /* RecipeRatingView.swift */; };
 		5BEB36962AB715DF00BDC097 /* RecipeCookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEB36952AB715DF00BDC097 /* RecipeCookingView.swift */; };
 		5BEB36982AB7166600BDC097 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEB36972AB7166600BDC097 /* RecipeDetailView.swift */; };
+		5BEB369A2AB7208700BDC097 /* RipeningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEB36992AB7208700BDC097 /* RipeningView.swift */; };
+		5BEB369C2AB7276000BDC097 /* RipeningModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEB369B2AB7276000BDC097 /* RipeningModel.swift */; };
+		5BEB369E2AB727C300BDC097 /* RipeningData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEB369D2AB727C300BDC097 /* RipeningData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +59,9 @@
 		5BEB36932AB7155700BDC097 /* RecipeRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeRatingView.swift; sourceTree = "<group>"; };
 		5BEB36952AB715DF00BDC097 /* RecipeCookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCookingView.swift; sourceTree = "<group>"; };
 		5BEB36972AB7166600BDC097 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
+		5BEB36992AB7208700BDC097 /* RipeningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningView.swift; sourceTree = "<group>"; };
+		5BEB369B2AB7276000BDC097 /* RipeningModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningModel.swift; sourceTree = "<group>"; };
+		5BEB369D2AB727C300BDC097 /* RipeningData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +120,7 @@
 				5BEB36832AB4957100BDC097 /* HeaderData.swift */,
 				5BEB368B2AB6FDE300BDC097 /* FactData.swift */,
 				5BEB368F2AB7053B00BDC097 /* RecipeData.swift */,
+				5BEB369D2AB727C300BDC097 /* RipeningData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -124,6 +131,7 @@
 				5BEB36812AB494E700BDC097 /* HeaderModel.swift */,
 				5BEB36892AB6FD9300BDC097 /* FactModel.swift */,
 				5BEB368D2AB704BB00BDC097 /* RecipeModel.swift */,
+				5BEB369B2AB7276000BDC097 /* RipeningModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -143,6 +151,7 @@
 				5BEB36932AB7155700BDC097 /* RecipeRatingView.swift */,
 				5BEB36952AB715DF00BDC097 /* RecipeCookingView.swift */,
 				5BEB36972AB7166600BDC097 /* RecipeDetailView.swift */,
+				5BEB36992AB7208700BDC097 /* RipeningView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -220,8 +229,10 @@
 			files = (
 				5BEB367C2AB4612700BDC097 /* SettingsView.swift in Sources */,
 				5BEB36942AB7155700BDC097 /* RecipeRatingView.swift in Sources */,
+				5BEB369C2AB7276000BDC097 /* RipeningModel.swift in Sources */,
 				5BEB36502AB3854900BDC097 /* ContentView.swift in Sources */,
 				5BEB367E2AB4614F00BDC097 /* AppView.swift in Sources */,
+				5BEB369E2AB727C300BDC097 /* RipeningData.swift in Sources */,
 				5BEB367A2AB4610B00BDC097 /* RipeningStagesView.swift in Sources */,
 				5BEB364E2AB3854900BDC097 /* AvocadosApp.swift in Sources */,
 				5BEB36782AB460D900BDC097 /* AvocadosView.swift in Sources */,
@@ -230,6 +241,7 @@
 				5BEB36842AB4957100BDC097 /* HeaderData.swift in Sources */,
 				5BEB36862AB6E6C000BDC097 /* DishesView.swift in Sources */,
 				5BEB36962AB715DF00BDC097 /* RecipeCookingView.swift in Sources */,
+				5BEB369A2AB7208700BDC097 /* RipeningView.swift in Sources */,
 				5BEB368A2AB6FD9300BDC097 /* FactModel.swift in Sources */,
 				5BEB36882AB6EFFB00BDC097 /* FactsView.swift in Sources */,
 				5BEB36922AB705B400BDC097 /* RecipeCardView.swift in Sources */,
